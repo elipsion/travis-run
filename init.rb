@@ -17,6 +17,7 @@ module Travis
         error "run command is not available on #{RUBY_VERSION}" if RUBY_VERSION < '1.9.3'
         $:.unshift File.expand_path('../lib', __FILE__)
         require 'travis/build'
+        require 'travis/worker'
         require 'travis/worker/virtual_machine'
       end
 
