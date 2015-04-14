@@ -1,0 +1,19 @@
+GIT
+  remote: git://github.com/travis-ci/travis-support.git
+  revision: e7f81093f83bd029cca6508739c5720e57e3d571
+  specs:
+    travis-support (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    travis-build (0.0.1)
+    travis-worker (0.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  travis-build
+  travis-support!
+  travis-worker
